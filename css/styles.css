@@ -33,6 +33,9 @@ body {
 img {
     max-width: 100%;
     height: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
 
 h1 {
@@ -114,12 +117,11 @@ ul {
 }
 
 .user-info figure {
-    width: 90%;
-    max-width: 200px;
-}
-
-.user-info img {
-    border-radius: 100%;
+    display: flex;
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+    align-items: center;
 }
 
 .user-info div {

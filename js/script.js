@@ -20,7 +20,7 @@ getData();
 /**target div where profile info will appear*/
 const userInfo = async function (data) {
     const infoDiv = document.createElement("div");
-    infoDiv.classList.add(".user-info");
+    infoDiv.classList.add("user-info");
     infoDiv.innerHTML = 
         `<figure>
             <img alt="user avatar" src=${data.avatar_url} />
